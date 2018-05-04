@@ -1,6 +1,7 @@
 <template>
   <div id="app">
    <mt-header fixed title="上海前端19期"></mt-header>
+
     <router-view/>
     
     <nav class="mui-bar mui-bar-tab">

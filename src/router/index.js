@@ -41,6 +41,10 @@ export default new Router({
       redirect:"/home"
     },
     {
+      path:"/home",
+      component:Home
+    },
+    {
       path:"/menber",
       component:Menber
     },
