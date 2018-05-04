@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="page">
         <h1>图片详情页</h1>
     </div>
 </template>
