@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-
+import App from '../App'
 
 
 //引入tabbar中的组件
@@ -28,11 +28,17 @@ import picDetail from "@/components/pictures/detail";
 
 Vue.use(Router)
 
+
+
+new Vue({
+  el: '#app',
+  components: { App }
+})
 export default new Router({
   routes: [
     {
       path:"/",
-      component:Home
+      redirect:"/home"
     },
     {
       path:"/menber",
@@ -73,5 +79,6 @@ export default new Router({
       path:"/pics",
       component:picDetail
     }
-  ]
+  ],
+  linkActiveClass:"mui-active"
 })
