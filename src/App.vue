@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-   <mt-header fixed title="上海前端19期"></mt-header>
+   <mt-header fixed title="上海前端19期">
+		 <router-link to ="/" slot = "left" v-if="$route.path!='/home'" @click="$router.go(-1)">
+		 		<mt-button icon="back"></mt-button>
+		 </router-link>
+	 </mt-header>
 
     <router-view/>
     
@@ -38,6 +42,6 @@ export default {
   padding: 0;
 }
 .page{
-  padding: 40px 0 50px 0 0;
+  padding: 40px 0 50px 0;
 }
 </style>
