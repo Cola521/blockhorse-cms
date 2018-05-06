@@ -11,7 +11,6 @@ import Menber from "@/components/tabbar/menber";
 import Search from "@/components/tabbar/search";
 
 // 商品相关的组件
-
 import GoodsList from "@/components/goods/list";
 import GoodDetail from "@/components/goods/detail";
 
@@ -71,16 +70,16 @@ export default new Router({
       component:NewsList
     },
     {
-      path:"/news/detail",
+      path:"/news/detail/:id",
       component:NewDetail
     },
     //图片
     {
-      path:"/pics",
+      path:"/pics/:id",
       component:picList
     },
     {
-      path:"/pics",
+      path:"/pics/detail:id",
       component:picDetail
     }
   ],

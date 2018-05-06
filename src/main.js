@@ -21,6 +21,9 @@ import "./assets/mui/css/mui.css"
 
 import "./assets/mui/css/icons-extra.css"
 /* eslint-disable no-new */
+
+import canvas from "canvas-nest.js";
+
 new Vue({
   el: '#app',
   router,

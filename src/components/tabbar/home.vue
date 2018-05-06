@@ -11,7 +11,7 @@
                    <img src="../../assets/images/menu1.png" alt="">
                     <div class="mui-media-body">新聞資訊</div>
                     </router-link></li>
-            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to='pics'>
+            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to='pics/0'>
                    <img src="../../assets/images/menu2.png" alt="">
                     <div class="mui-media-body">圖片分享</div></router-link></li>
             <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to='goods'>
